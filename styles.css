@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+  width: 100%;
+  margin: 0;
+  color: #f5f6f7;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background: linear-gradient(#5757ea, rgb(255, 243, 247)); 
+  background-attachment: fixed; /*para que ocupe toda la pagina*/
+}
+
+h1, p {
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: #e5e5f0;
+}
+
+h1 {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 4em;
+  padding-top: 0.5em;
+  font-weight: 800;
+}
+
+form {
+  width: 60vw;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 1em auto;
+  padding: 1.5em;
+  background-color: #1b1b32;
+  opacity: 0.7;
+  border-radius: 10px;
+} 
+
+fieldset {
+  border: none;
+  /*padding: 0;*/
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 3px 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 3px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #e5e5f0;
+  color: black;
+  border-color: white;
+  min-width: 300px;
+  opacity: 0.8;
+  border-radius: 5px;
+  font-family: 'Monserrat', sans-serif;
+  font-weight: 600;
+}
